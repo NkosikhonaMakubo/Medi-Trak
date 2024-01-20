@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675755564714",
+    "project_id": "medi-trak",
+    "storage_bucket": "medi-trak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675755564714:android:441ae10a845aecd1d5fad3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcitFKU0_RNpLtoWtX5PFs_xQWpZWzSR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

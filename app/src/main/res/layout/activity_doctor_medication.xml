@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorMedicationActivity"
+    android:background="@drawable/medical4">
+
+    <EditText
+        android:id="@+id/txtMedicationName"
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Medicine Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="298dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Medicine Discription Here"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/txtMedicationName"
+        app:layout_constraintStart_toStartOf="@+id/txtMedicationName"
+        app:layout_constraintTop_toBottomOf="@+id/txtMedicationName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:text="ADD MEDICATION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
